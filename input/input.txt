@@ -1,0 +1,2 @@
+foo bar is foo count
+count foo for saurzcode
