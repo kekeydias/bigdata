@@ -17,6 +17,7 @@ import bigdata.mapper.WordCountMapper;
 import bigdata.reducer.WordCountReducer;
 
 public class WordCount {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
 		Path inputPath = new Path(args[0]);
 		Path outputDir = new Path(args[1]);
